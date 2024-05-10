@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import './index.css';
-import EmojiItem from '../EmojiItem';
-import EndScreen from '../EndScreen';
+import { Component } from "react";
+import "./index.css";
+import EmojiItem from "../EmojiItem";
+import EndScreen from "../EndScreen";
 
 // When you click the emoji:
 // 1. If it is already clicked, end the game to you lose.
