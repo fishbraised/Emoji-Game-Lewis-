@@ -1,0 +1,14 @@
+:root {
+  --text-color: #ffffff;
+  --s-fs: 18px;
+  --m-fs: 24px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
