@@ -1,5 +1,5 @@
-import React from 'react';
-import './index.css';
+import React from "react";
+import "./index.css";
 
 const EmojiItem = (props) => {
   const { emojiData, emojiInput } = props;
@@ -11,7 +11,7 @@ const EmojiItem = (props) => {
 
   return (
     <li>
-      <button onClick={onEmojiClick()}>
+      <button onClick={onEmojiClick}>
         <img src={image} alt={image} />
       </button>
     </li>
